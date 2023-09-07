@@ -1,0 +1,52 @@
+.Modal {
+    position: relative;
+    z-index: 4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  /* modal창 */
+  .modalBody {
+    font-family:font2;
+    position: relative;
+    z-index: 2;
+    position: absolute;
+    width: 580px;
+    height: 300px;
+    padding: 40px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 2px 3px 0 rgba(34, 36, 38, 0.15);
+  }
+   
+  #modalCloseBtn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border: none;
+    color: rgba(0, 0, 0, 0.7);
+    background-color: transparent;
+    font-size: 20px;
+  }
+   
+  #modalCloseBtn:hover {
+    cursor: pointer;
+  }
+
+  @font-face {
+    font-family: 'font2'; /* 원하는 폰트 이름 */
+    src: url('.././font2.ttf') ;
+    /* 여기서 '경로/폰트파일.확장자'를 실제 폰트 파일의 경로와 파일 이름으로 바꾸세요. */
+  }
+
+  .li{
+    text-align: left;
+  }
