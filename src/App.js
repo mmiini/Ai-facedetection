@@ -36,8 +36,8 @@ function App() {
     
     //1. AWS 키 생성
     AWS.config.update({
-      accessKeyId: "AKIASN5TEJIHK4ISKRVG",
-      secretAccessKey: "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",
+      accessKeyId: "*******",
+      secretAccessKey: "******",
     })
 
     const myBucket = new AWS.S3({
