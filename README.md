@@ -1,6 +1,4 @@
-# ArcFace_Web-service
-
-## ArcFace 모델 다운로드
+# BITS - AI 카쉐어링 운전자 확인 시스템 
 
 ArcFace 모델을 다운로드하려면 다음 링크를 사용하세요:
 
